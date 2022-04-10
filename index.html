@@ -51,6 +51,47 @@
                             <use href="./img/sprite.svg#icon-close-black"></use>
                         </svg>
                     </button>
+                    <form class="contact-form">
+                        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                            <label class="contact-form-label">
+                                <span class="contact-text">Имя</span>
+                                 <div class="contact-form-input-wrapper">
+                                    <input class="contact-form-input" name="user-name" type="text" required >
+                                 </div>
+                            </label>
+                            <label class="contact-form-label">
+                                <span class="contact-text">Телефон</span>
+                                <div class="contact-form-input-wrapper">
+                                    <input  class="contact-form-input" name="user-phone" type="tel" required>
+                                </div>
+                            </label>
+
+                            <label class="contact-form-label">
+                                <span class="contact-text">Почта</span>
+                                <div class="contact-form-input-wrapper">
+                                    <input class="contact-form-input" name="user-mail" type="email" required>
+                                </div>
+                            </label>
+
+                        <div class="fcontact-form-checkbox-wrapper">
+                            <input type="checkbox" name="accept-policy"></input>
+                            <label class="contact-form-checkbox-label">
+                                Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a> </label>
+                        </div>
+
+                            <label class="contact-form-label">
+                                <span class="contact-text">Комментарий</span>
+                                <textarea 
+                                class="contact-form-feedback" 
+                                name="feedback" 
+                                rows="5" 
+                                placeholder="Введите текст" 
+                                resize="none"
+                                ></textarea>
+                            </label>
+
+                            <button class="contact-form-submit-btn "type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
