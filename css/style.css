@@ -285,7 +285,7 @@ address {
 }
 .modal-button:hover,
 .modal-button:focus{
-    background-color: var(--background-color-icon);
+    fill: var(--accent-color);
 }   
 .modal-title{
     margin-bottom: 12px;
@@ -395,8 +395,10 @@ address {
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before{
     background-image: url('../img/icon-check.svg');
     background-position: center;
-    border: 1px solid var(--accent-color);
     border-radius: 2px;
+}
+.contact-form-checkbox:focus + .contact-form-checkbox-label::before{
+    border: 1px solid var(--accent-color);  
 }
 .contact-form-checkbox-wrapper{
     margin-bottom: 30px;
